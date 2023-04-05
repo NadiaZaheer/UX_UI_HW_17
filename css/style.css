@@ -1,0 +1,64 @@
+.navigation {
+
+    vertical-align: top;
+    background-color: aqua;
+    
+}
+.inline-block {
+
+    display: inline-block; 
+    
+    text-align: center;
+    
+   
+}
+.logo {
+    text-align: center;
+    width: 23% ;
+    padding: 1%;
+
+}
+
+nav {
+
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+     width: 50%;
+    margin-left: auto;
+}
+
+.heroImg {
+
+    
+    background-color: aquamarine;
+    height:600px;
+    
+}
+
+.content {
+    display: inline-block;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.my-pic {
+
+    border-radius: 70%;
+    height: 800px;
+    width: 500px;
+    float: left;
+
+}
+
+.about {
+    float:right;
+background-color: rgb(161, 127, 255);
+
+}
+.content button {
+
+    float: right;
+}
