@@ -1,5 +1,8 @@
 /*Styling of Header Section*/
-
+/*/color palette -blue-green: #429CB6ff;
+--cerulean: #036D85ff;
+--midnight-green: #014553ff;
+*/
 nav {
     
     width: 73%;
@@ -12,7 +15,7 @@ ul {
 }
 .navigation{
 
-    
+        display: flex;
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -21,17 +24,24 @@ ul {
       
 }
 .logo {
-    text-align: center;
-    width: 23% ;
+   
+       width: 23% ;
     padding: 1%;
-    height: 100%;
+   
+    }
 
+nav{
+
+    display:flex;
 }
 .inline-block {
 
+   
     display: inline-block; 
+
     vertical-align: top;
     
+  
       
 }
 
@@ -39,7 +49,9 @@ ul {
 li {
     display: inline;
     padding: 8px;
-    font-family: Verdana;
+    font-family: Helvetica;
+    float:right;
+    
 
 }
 
@@ -47,13 +59,16 @@ li {
 
     text-decoration: none;
     color:black;
-    display:inline-block;
-
-}
-li a:hover:not(.active) {
+    display: block;
     
-    text-decoration: underline;
-    text-decoration-color: rgb(8, 141, 141);
+     
+}
+.navigation li:hover:not(.active) {
+    
+       
+    border-bottom: 2px solid #014553ff;
+    background-color:   rgba(66, 157, 182, 0.066);
+    
   }
 
 
@@ -71,14 +86,15 @@ li a:hover:not(.active) {
     height: 600px;
     padding: 25px;
     margin: 0px;
-    /*background-image: url("../images/1.jpg");*/
     background-image: url("../images/9.jpg");
+   /* background-image: url("../images/leaves.avif");*/
     background-repeat:no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     
-
   }
 
  
@@ -100,23 +116,39 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*
-.content {
-    display: flexbox;
-    margin: 0 auto;
+
+
+footer{
+
+    border:3px solid red;
+    display: flex;
+    align-items: row;
 }
 
-.about {
-    float:right;
-background-color: rgb(161, 127, 255);
+footer ul{
+    
+    font-size: small;
+    display: flex;
+    flex-direction:column;
+}
+footer h1{
+
+font-size: medium;
 
 }
-.content button {
 
-    float: right;
+.contactForm {
+    border:3px solid red;
+    display: block;
+    
 }
+input[type=text], select, textarea {
+    width: 20%;
+    padding: 4px;
+    border: none;
+    border-bottom: 2px solid rgb(2, 52, 60);
+    margin-top: 4px;
+ 
 
-
-
-*/
+  }
 
